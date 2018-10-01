@@ -19,7 +19,7 @@ nav ul {
 }
 
 #heading-2 {
-  color: #93alal;
+  color: #93a1a1;
 }
 
 wrapper > .dfn {
@@ -30,7 +30,7 @@ wrapper > .dfn {
   color: #fff;
 }
 
-.index.html, .fruits.html, .history.html, .contact.html, .#favs {
+#index.html, #fruits.html, #history.html, #contact.html, #favs {
   background-color: #719e07;
 }
 
@@ -38,10 +38,18 @@ wrapper > .dfn {
   background-color: #2694d8;
 }
 
-ol > li {
+ol li:first-child {
   color: #719e47;
 }
 
-ol > li {
-  color: #2aa198
+ol li:last-child {
+  color: #2aa198;
+}
+
+li > .types {
+  background-color: #657ba3;
+}
+
+li > .types {
+  background-color: #586
 }
